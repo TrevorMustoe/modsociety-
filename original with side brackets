@@ -1,0 +1,62 @@
+<h1 style="color:black; text-align:center; font-size:30px; margin-top: 0; margin-bottom: 20px;">WHO ARE WE?</h1>
+
+<head>
+<style>
+
+  .grid-container {
+  display: grid;
+  align: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    'menu header right'
+    'menu main right';
+  padding: 0px;
+}
+  
+.item1 { 
+  grid-area: header;
+  }
+
+  .item2 { 
+  grid-area: menu;
+  }
+
+  .item2 .leftb{
+    height: 100px;
+    margin: 0px;
+  }
+
+  .item3 { 
+  grid-area: main; }
+
+  .item4 { 
+  grid-area: right; }
+
+  .item4 .rightb{
+    height: 100px;
+    margin: 0px;
+    padding: 0px;
+  }
+
+
+.grid-container > div {
+  text-align: center;
+  padding: 10px 0;
+  font-size: 10px;
+}
+
+  
+</style>
+</head>
+
+<body>
+  
+<div class="grid-container">
+  <div class="item1">Mod Society started as three piece band and has grown into a network of musicians dedicated to bring top quality music entertainment for your wedding and all other occasions! </div>
+  <div class="item2"><img class="leftb" src="https://images.squarespace-cdn.com/content/v1/57c76d6a1b631b7a4a7bee1b/08792275-1e97-4e05-81c4-922ee253b60d/MOD+Bracket+Logo+left.png?format=300w"></div>
+  <div class="item3">Our band configurations are ready to blend jazz, indie rock, classic rock, contemporary pop and Mowtown to present a unique experience at any event or wedding. </div>  
+  <div class="item4"><img class="rightb" src="https://images.squarespace-cdn.com/content/v1/57c76d6a1b631b7a4a7bee1b/4e16ee56-9acd-499b-a815-461403dfd94c/MOD+Bracket+Logo+right.png?format=300w"</div>
+</div>
+
+</body>
